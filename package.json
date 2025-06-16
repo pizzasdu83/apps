@@ -8,10 +8,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "asc index.ts -b build/contract.wasm -t build/contract.wat --validate --sourceMap",
+    "start": "echo 'Ready for deployment! You can invoke this contract from frontend or test script.'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "assemblyscript": "^0.28.2",
+    "create-on-klave": "^0.4.1",
+    "typescript": "^5.8.3"
 }
