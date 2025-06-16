@@ -1,0 +1,14 @@
+{
+    "version": "1",
+    "branches": [
+        "*"
+    ],
+    "applications": [
+        {
+            "slug": "hello-world",
+            "description": "This is a test",
+            "version": "0.0.1",
+            "rootDir": "/apps/hello-world"
+        }
+    ]
+}
