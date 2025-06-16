@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    run:
+      cmd: npm start
+    ports:
+      - 80:3000
