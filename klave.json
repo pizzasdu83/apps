@@ -1,4 +1,10 @@
 {
+  "name": "hello-world",
+  "source": "assembly/index.ts",
+  "binary": "build/contract.wasm",
+  "build": "npm run build"
+}
+{
     "version": "1",
     "branches": [
         "*"
