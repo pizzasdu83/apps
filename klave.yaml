@@ -4,6 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
     run:
-      cmd: npm start
+      cmd: npm run build && npm start
     ports:
       - 80:3000
